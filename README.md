@@ -1,1 +1,0 @@
-# simple-issue-tracker

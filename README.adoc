@@ -1,0 +1,43 @@
+= simple-issue-tracker
+Simple issue tracker with basic set of functionality and simplistic deployment.
+Despite that, gonna have agile/scrum/kanban primitives, like different boards, concept of sprint - mostly for the sake of grouping tasks.
+
+== model
+=== project
+* name
+* description
+
+=== issue
+* name
+* description
+
+* tags
+
+* parent
+* project
+
+* type
+** epic
+** story
+** task
+
+* status
+** open
+** in progress
+** ready for test
+** done
+** cancelled
+
+=== tag
+* name
+
+=== sprint
+* name
+* description
+
+* project
+
+* date from
+* date to
+
+* status
